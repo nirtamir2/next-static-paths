@@ -1,4 +1,4 @@
-import { filePathToPathname } from "../cli/filePathToPathname";
+import { pageFilePathToPathname } from "../cli/pageFilePathToPathname";
 import { test, expect } from "vitest";
 
 test.each([
@@ -8,5 +8,5 @@ test.each([
   ["middleware", "something/_middleware.js", "/something"],
   ["dot in the filepath", "something/file.json.js", "/something/file.json"],
 ])(`%s`, (_, filePath, expected) => {
-  expect(filePathToPathname(["js"], filePath)).toEqual(expected);
+  expect(pageFilePathToPathname(["js"], filePath)).toEqual(expected);
 });
