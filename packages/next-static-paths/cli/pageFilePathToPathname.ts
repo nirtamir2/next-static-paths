@@ -19,8 +19,6 @@ export function appFilePathToPathname(
   const extensionsRegex = new RegExp(`\\page.(${pageExtensions.join("|")})$`);
   return (
     filePath
-       // remove /app
-      .slice(4)
       .replace(extensionsRegex, "")
       // (thing)/ => /
       .replace(/\([^)]+\)\//g, "")

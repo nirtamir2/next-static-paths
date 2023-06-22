@@ -179,8 +179,10 @@ export const generate = command({
     pageExtensions,
     srcDirectory,
   }) {
-    const pagesRoutes = await getPagesRoutesMap(srcDirectory, pageExtensions);
-    const appRoutes = await getAppRoutesMap(srcDirectory, pageExtensions);
+    const [pagesRoutes, appRoutes] = await Promise.all([
+      getPagesRoutesMap(srcDirectory, pageExtensions),
+      getAppRoutesMap(srcDirectory, pageExtensions),
+    ]);
 
     const sortedRoutes = new Map(
       [...pagesRoutes.entries(), ...appRoutes.entries()].sort()

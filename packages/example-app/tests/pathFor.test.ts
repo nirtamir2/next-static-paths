@@ -38,6 +38,6 @@ test("/splat/[...rest]", () => {
 
   pathFor("/splat/[...rest]", { rest: [] });
   expect(pathFor("/splat/[...rest]", { rest: ["hello", "wor/ld"] })).toEqual(
-    "/splat/hello/wor%2Fld"
+    "/[[...rest]]/hello/wor%2Fld"
   );
 });
