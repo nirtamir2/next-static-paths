@@ -1,6 +1,6 @@
 {
-  "name": "next-static-paths",
-  "version": "0.0.6",
+  "name": "@nirtamir2/next-static-paths",
+  "version": "0.0.10",
   "description": "Static types for routing in Next.js apps",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
@@ -18,7 +18,7 @@
     "next-static-paths": "./bin/next-static-paths.js"
   },
   "repository": {
-    "url": "https://github.com/Schniz/next-static-paths",
+    "url": "https://github.com/nirtamir2/next-static-paths",
     "type": "git",
     "directory": "packages/next-static-paths"
   },
@@ -29,7 +29,7 @@
     "augment.d.ts"
   ],
   "keywords": [],
-  "author": "Gal Schlezinger <gal@spitfire.co.il>",
+  "author": "Nir Tamir <nirtamir2@gmail.com>",
   "license": "MIT",
   "devDependencies": {
     "@swc-node/register": "^1.6.5",

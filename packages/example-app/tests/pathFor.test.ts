@@ -1,5 +1,5 @@
 import { test, expect } from "vitest";
-import { pathFor } from "next-static-paths";
+import { pathFor } from "@nirtamir2/next-static-paths";
 
 test("/", () => {
   expect(pathFor("/")).toEqual("/");

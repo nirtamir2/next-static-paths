@@ -1,4 +1,4 @@
-import { TypedLink } from "next-static-paths";
+import { TypedLink } from "@nirtamir2/next-static-paths";
 import { test, expect, describe } from "vitest";
 import React from "react";
 import { renderToStaticMarkup } from "react-dom/server";

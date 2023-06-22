@@ -1,4 +1,4 @@
-import { TypedLink } from "next-static-paths";
+import { TypedLink } from "@nirtamir2/next-static-paths";
 
 export default function Home() {
   return (
