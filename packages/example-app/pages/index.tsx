@@ -5,7 +5,7 @@ export default function Home() {
     <div>
       Hello, world.{" "}
       <TypedLink as="/">
-        <a>Hello</a>
+        Hello
       </TypedLink>
     </div>
   );

@@ -32,7 +32,7 @@ import { TypedLink } from "@nirtamir2/next-static-paths";
 function MyComponent() {
   return (
     <TypedLink as="/some/[myArgument]" myArgument="hello world">
-      <a>Hello world</a>
+      Hello world
     </TypedLink>
   );
 }
