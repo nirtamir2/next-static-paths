@@ -1,7 +1,7 @@
 # @nirtami2/next-static-paths
 
-## 0.0.11
+## 0.1.0
 
-### Major Changes
+### Minor Changes
 
-Support next 13 app router
+- 14d3fa6: Support next 13 app router pages
