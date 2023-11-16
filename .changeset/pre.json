@@ -1,0 +1,9 @@
+{
+  "mode": "pre",
+  "tag": "canary",
+  "initialVersions": {
+    "@next-static-paths/example-app": "1.0.0",
+    "@nirtamir2/next-static-paths": "0.1.0"
+  },
+  "changesets": []
+}
