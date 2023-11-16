@@ -296,8 +296,8 @@ function write(writable: Writable, data: string): Promise<void> {
 
 async function maybePrettify(input: string): Promise<string> {
   try {
-    const resolved = require("prettier");
-    return await resolved.format(input, { parser: "typescript" });
+    const prettier = await import("prettier");
+    return await prettier.format(input, { parser: "typescript" });
   } catch {}
   return input;
 }
