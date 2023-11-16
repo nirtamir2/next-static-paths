@@ -1,16 +1,18 @@
 {
   "compilerOptions": {
-    "target": "es2019",
-    "lib": ["esnext"],
-    "skipLibCheck": true,
+    "lib": ["es2023"],
+    "module": "node16",
+    "target": "es2022",
+
     "strict": true,
-    "strictNullChecks": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node16",
+
+    "strictNullChecks": true,
     "noEmit": true,
     "incremental": true,
-    "esModuleInterop": true,
-    "module": "esnext",
-    "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "preserve",
