@@ -13,6 +13,7 @@
     "test": "vitest",
     "ts-node": "node -r @swc-node/register",
     "type-check": "tsc --noEmit",
+    "format": "prettier src/**/*.ts cli/**/*.ts --write",
     "lint": "prettier src/**/*.ts cli/**/*.ts --check"
   },
   "bin": {
